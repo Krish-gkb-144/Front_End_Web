@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-ThinItalic.woff2') format('woff2'),
+        url('../font/LibreFranklin-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-Thin.woff2') format('woff2'),
+        url('../font/LibreFranklin-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-BlackItalic.woff2') format('woff2'),
+        url('../font/LibreFranklin-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-Black.woff2') format('woff2'),
+        url('../font/LibreFranklin-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-ExtraBoldItalic.woff2') format('woff2'),
+        url('../font/LibreFranklin-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-ExtraLight.woff2') format('woff2'),
+        url('../font/LibreFranklin-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-Bold.woff2') format('woff2'),
+        url('../font/LibreFranklin-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-BoldItalic.woff2') format('woff2'),
+        url('../font/LibreFranklin-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-ExtraBold.woff2') format('woff2'),
+        url('../font/LibreFranklin-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-Medium.woff2') format('woff2'),
+        url('../font/LibreFranklin-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-Italic.woff2') format('woff2'),
+        url('../font/LibreFranklin-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-ExtraLightItalic.woff2') format('woff2'),
+        url('../font/LibreFranklin-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-LightItalic.woff2') format('woff2'),
+        url('../font/LibreFranklin-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-Light.woff2') format('woff2'),
+        url('../font/LibreFranklin-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-SemiBold.woff2') format('woff2'),
+        url('../font/LibreFranklin-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-MediumItalic.woff2') format('woff2'),
+        url('../font/LibreFranklin-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-Regular.woff2') format('woff2'),
+        url('../font/LibreFranklin-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-ThinItalic.woff2') format('woff2'),
+        url('../font/LibreFranklin-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-Thin.woff2') format('woff2'),
+        url('../font/LibreFranklin-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('../font/LibreFranklin-SemiBoldItalic.woff2') format('woff2'),
+        url('../font/LibreFranklin-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+

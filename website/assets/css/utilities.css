@@ -1,0 +1,121 @@
+:root{
+    --Open: 'Open Sans SemiCondensed';
+    --Archivo: 'Archivo';
+    --Barlow: 'Barlow';
+}
+ul,li{
+    list-style: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    color: none !important;
+}
+.padding{
+    padding: 0!important;
+}
+.open{
+    font-family: var(--Open);
+}
+.Archivo{
+    font-family: var(--Archivo);
+}
+.barlow{
+    font-family: var(--Barlow) !important;
+}
+.Gilda{
+    font-family: var(--Gilda);
+}
+body{
+    background-color: black !important;
+}
+.icon-color{
+    background-color: #3b5999;
+}
+.icon-color1{
+    background-color: #55acee;
+}
+.icon-color2{
+    background-color: #e4405f;
+}
+.icon-color3{
+    background-color: #cd201f;
+}
+.background-color1{
+    background-color: #545454;
+}
+.border-right{
+    border-right: 1px solid #545454;
+}
+.border-bottom1{
+    border-bottom: 1px solid #545454;
+}
+.border-top1{
+    border-top: 1px solid #545454;
+}
+.border-b-r{
+    border-bottom: 1px solid #545454;
+    border-right: 1px solid #545454;
+}
+.borders{
+    border: 1px solid #545454 !important;
+}
+.z-index{
+    z-index:99 !important ;
+}
+.z-index-1{
+    z-index:-99 !important ;
+}
+@media (min-width: 1px) and (max-width: 575px){
+    .line_animation .line_area,.line_animation .line_area1{
+        width: 25% !important;
+    }
+    .slider1 h1,.menu > ul > li .home,.About,.Services,.Blog,.Contact{
+        font-size: 50px !important;
+    }
+    .counter .text h2,.slider3 .text h2,.slider5 .text h2,.partners .title h2{
+        font-size: 40px !important;
+    }
+    .slider4 .text h2{
+        font-size: 30px !important;
+    }
+    .counter .text .lead{
+        font-size: 18px;
+    }
+    .counter #counter .box .counter-value{
+        font-size: 40px !important;
+    }
+    .slider2 .slider2-img img{
+        height: 100% !important;
+    }
+    
+    
+}
+@media (min-width: 575px) and (max-width: 992px){
+    .slider1 h1,.menu > ul > li .home{
+        font-size: 75px !important;
+    }
+    .slider3 .text h2,.slider4 .text h2,.slider5 .text h2{
+        font-size: 40px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .slider1 h1{
+        font-size: 100px !important;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 992px){
+    .slider3 .text .title.border-right{
+        border-right: 0px !important;
+        border-bottom: 1px solid #545454;
+    }
+    .partners-img .col-6:nth-child(2),.partners-img .col-6:nth-child(4),.partners-img .col-6:nth-child(8),.partners-img .col-6:nth-child(10),.partners-img .col-6:nth-child(14),.partners-img .col-6:nth-child(16){
+        border-right:0px !important ;
+    }
+    .partners-img .col-6:nth-last-child(3),.partners-img .col-6:nth-last-child(4){
+        border-bottom: 1px solid #545454;
+        border-top: 1px solid #545454;
+    }
+}

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+:root {
+    --font-family: 'Libre Franklin';
+	--e-global-color-primary: #FFFFFF;
+    --e-global-color-secondary: #1D2228;
+    --e-global-color-text: #979BA1;
+    --e-global-color-accent: #FF6B59;
+    --e-global-color-3567886: #232931;
+    --e-global-color-fb254b4: #272E36;
+    --e-global-color-fe9a21c: #F26453; 
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    margin: 0;
+    padding: 0;
+}
+.border-radius{
+    border-radius: 50px 0 0 50px;
+}
+.border-radius1{
+    border-radius: 0 50px 50px 0;
+}
+a {
+    text-decoration: none;
+}
+.cursor{
+    cursor: pointer;
+}	
+
+.color {
+    color: #F26453;
+}
+.color1-b {
+    background-color: #232931;
+}
+.color2-b {
+    background-color: #272E36;
+}
+.line-color{
+    border:.5px solid #979ba151 !important;
+}
+.border-color{
+border:3px solid var(--e-global-color-secondary);
+}
+    
+.d-block{
+    display: block;
+}
+.color-b {
+    background-color: #F26453;
+}
+.z-index{
+    z-index: 99;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.padding {
+    padding: 0 !important;
+}

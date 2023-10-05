@@ -1,0 +1,160 @@
+:root {
+    --font-family: 'Libre Franklin';
+	--e-global-color-primary: #FFFFFF;
+    --e-global-color-secondary: #1D2228;
+    --e-global-color-text: #979BA1;
+    --e-global-color-accent: #FF6B59;
+    --e-global-color-3567886: #232931;
+    --e-global-color-fb254b4: #272E36;
+    --e-global-color-fe9a21c: #F26453;  
+}
+body{
+	background-color: var(--e-global-color-fb254b4);
+	font-family: var(--font-family);
+}
+li a:hover{
+	color:#F26453 !important;
+}
+.dropdown-toggle::after {
+ 
+    vertical-align: 0.2em !important;
+  
+}
+.header-main,footer{
+	background-image:url('../img/cyberwall-7TXPKE4.jpg');
+	background-position: center;
+    background-size: cover;
+}
+.foot{
+	background-color: transparent;
+	background-image: linear-gradient(180deg, var(--e-global-color-fb254b4 ) 0%, #272E36C4 100%);
+}
+header{
+	background-color: transparent;
+	background-image: linear-gradient(180deg, var(--e-global-color-3567886 ) 0%, #232931bf 100%);
+}
+nav{
+	border-bottom:1px solid #ffffff17;
+}
+.slider .icons i{
+	width:50px;
+	height:50px;
+	background-color:white ;
+	text-align:center;
+	line-height:50px;
+	border-radius:50%;
+	font-size: 20px;
+	transition: all 2s;
+	cursor: pointer;
+}
+
+.slider h2{
+	font-size:54px;
+}
+.slider .icons i:hover{
+	background-color:#F26453 ;
+	border-radius: 50%;
+}
+.slider .icons:hover i{
+	color:white !important;
+}
+.slider1 .logo {
+	width: 80%;
+}
+.slider1 .logo img{
+	width: 100%;
+	transition: all .3s;
+	filter: brightness( 200% )  saturate( 0% );
+}
+.slider1 .logo img:hover{
+	filter: brightness( 100% ) ;
+}
+.clip{
+	clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+	background-color: var(--e-global-color-3567886) ;
+	width: 100%;
+	height: 250px;
+	left: 0 ;
+    bottom: -1px;
+	z-index: 99;
+}
+.slider2 i,.slider6 .contact .boxs i{
+	width: 60px;
+	height: 60px;
+	font-size: 25px;
+	line-height: 60px;
+}
+footer .footer-logo i{
+	width: 40px;
+	height: 40px;
+	font-size: 15px;
+	line-height: 40px;
+	transition: all 1s;
+}
+footer .footer-logo i:hover{
+  background-color: #F26453 !important;
+}
+.clip1,.clip2,.clip-1{
+	clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+	background-color: var(--e-global-color-fb254b4) ;
+	width: 100%;
+	height: 150px;
+	left: 0 ;
+    bottom: 0%;
+	margin-bottom: -1px;
+}
+.clip-1{
+	height: 250px ;
+}
+.clip2{
+	background-color: var(--e-global-color-3567886) ;
+	height: 250px;
+	z-index: -99;
+    bottom: 0%;
+}
+.slider5 .countries .img img{
+	filter:  contrast( 0% ) ;
+}
+.slider5 .countries .countries-img{
+	top: 13%;
+	left: 33%;
+}
+.slider5 .countries .countries-img1{
+	top: 33%;
+	left: 16%;
+}
+.slider5 .countries .countries-img2{
+	bottom: 27%;
+	left: 29%;
+}
+.slider5 .countries .countries-img3{
+	top: 46%;
+	left: 48%;
+}
+.slider5 .countries .countries-img4{
+	top: 28%;
+	right: 26%;
+}
+.slider5 .countries .countries-img5{
+	bottom: 29%;
+	right: 16%;
+}
+.slider6 .card .box{
+	border-radius: 20px 0 0 0;
+	bottom: 0%;
+	right: 0;
+	width: 101px;
+}
+.slider6 .card .card-body p{
+	font-size: 15	px !important;
+}
+@media(max-width:767px){
+
+.slider h2{
+	font-size: 45px !important;
+}
+.slider5 .countries .countries-img,.countries-img1,.countries-img2,.countries-img3,
+.countries-img4,.countries-img5,.countries-img6{
+	width: 8% !important;
+}
+}

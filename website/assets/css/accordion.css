@@ -1,0 +1,26 @@
+* {box-sizing: border-box}
+
+.item {
+    width: 100px;
+    float: left;
+    background-color: transparent;
+    /* border: 1px solid #7f8c8d; */
+    height: 600px;
+    /* line-height: 200px; */
+    cursor: pointer
+}
+
+.active {
+    background-color: transparent;
+    /* border-left: 15px solid #34495e; */
+    /* color: ; */
+}
+
+.info {
+    width: 100%;
+    float: left;
+    background-color: transparent;
+    /* color: #222; */
+    height: 600px;
+    display: none
+}

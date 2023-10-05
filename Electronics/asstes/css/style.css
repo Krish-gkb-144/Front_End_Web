@@ -1,0 +1,525 @@
+.xs-1{width: 8.3333%;}
+.xs-2{width: 16.6666%;}
+.xs-3{width: 25%;}
+.xs-4{width: 33.3333%;}
+.xs-5{width: 41.6665%;}
+.xs-6{width: 50%;}
+.xs-7{width: 58.3331%;}
+.xs-8{width: 66.6664%;}
+.xs-9{width: 75%;}
+.xs-10{width: 83.3330%;}
+.xs-11{width: 91.6663%;}
+.xs-12{width: 100%;}
+
+.xs-1,.xs-2,.xs-3,.xs-4,.xs-5,.xs-6,.xs-7,.xs-8,.xs-9,.xs-10,.xs-11,.xs-12,
+.sm-1,.sm-2,.sm-3,.sm-4,.sm-5,.sm-6,.sm-7,.sm-8,.sm-9,.sm-10,.sm-11,.sm-12,
+.md-1,.md-2,.md-3,.md-4,.md-5,.md-6,.md-7,.md-8,.md-9,.md-10,.md-11,.md-12,
+.lg-1,.lg-2,.lg-3,.lg-4,.lg-5,.lg-6,.lg-7,.lg-8,.lg-9,.lg-10,.lg-11,.lg-12,
+.xl-1,.xl-2,.xl-3,.xl-4,.xl-5,.xl-6,.xl-7,.xl-8,.xl-9,.xl-10,.xl-11,.xl-12 {
+    padding: 12px;
+}
+
+
+.toggle i{
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+nav form input,footer .footer-text .pat form input{
+    font-size: 15px;
+    padding: 0 30px 10px 0;
+    border: 0;
+    font-family: 'Varela Round';
+    background-color: #008081;
+}
+::placeholder{
+    color: white;
+}
+
+nav form ,footer .footer-text .pat form input{
+    border-bottom: 1.5px solid #c4e7e7a8;
+}
+
+nav{
+    background-color: #008081;
+}
+
+nav i {
+    font-size: 15px;
+    color: white;
+}
+
+nav .menu ul,
+.nav-img,
+nav input form {
+    height: 80px;
+}
+
+.nav-img img {
+    width: 100%;
+    height: 50px;
+}
+
+nav .menu ul li a {
+    color: white;  
+    font-family: 'Varela Round';
+    font-size: 14px;
+    font-weight: 400;
+}
+nav .menu ul li:nth-child(2){
+    padding: 0 30px;
+}
+
+nav .menu ul li a i {
+    color: white;
+}
+
+/* header */
+header button ,.slider3 .btn,.slider4 .btn ,.banner .btn, .slider .img1 .btn,.slider .img2 .btn, .slider .img3 .btn{
+    border: 0;
+    background-color: #ffd800;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+header .btn {
+    font-family: 'Varela Round';
+    border: 2px solid black;
+    width: 170px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+header button a, header .btn a {
+    padding-right: 10px;
+    color: black;
+    font-family: 'Varela Round';
+}
+
+header .menu ul li a {
+    color: black;
+    font-size: 14px;
+    font-family: 'Varela Round';
+}
+
+header .menu ul {
+    height: 35px;
+}
+
+/* banner */
+.banner{
+    background-image: url("../img/Slider\ 2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner .btn a,.slider3 .btn a,.slider4 .btn a,.slider .img1 .btn a, .slider .img2 .btn a, .slider .img3 .btn a{
+    font-family: 'Varela Round';
+    color: black;
+}
+.banner .titla h3,
+.slider3 .titla h3{
+    font-size: 30px;
+    padding: 20px 0;
+    font-family: 'Varela Round';
+}
+.banner .titla h2,
+.slider3 .titla h2{
+    font-size: 40px;
+    padding: 0 0 10px;
+    font-family: 'Varela Round';
+}
+.banner .titla p span{
+    display: block;
+}
+.banner .titla p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-family: 'Varela Round';
+}
+.banner .banner-titla{
+    height: 600px;
+}
+/* .slider */
+.slider{
+    padding: 10px 0 50px 0;
+}
+.slider .img1,
+.slider .img2,
+.slider .img3{
+    background-image: url("../img/Three\ banner\ 1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+    padding: 15px;
+}
+
+.slider .img1 h3{
+    color: white;
+    font-size: 30px;
+    padding-top:40px;
+    text-align: center;
+    font-family: 'Varela Round';
+}
+.slider .img2 h3,
+.slider .img3 h3{
+    color: black;
+    font-size: 20px;
+    font-family: 'Varela Round';
+}
+.slider .img2{
+    background-image: url("../img/Three\ banner\ 2.jpg");
+    height: 240px;
+    margin-bottom: 20px;
+}
+.slider .img3{
+    height: 240px;
+    background-image: url("../img/Three\ banner\ 3.jpg");
+}
+.slider .img1 .btn{
+    margin: 10px auto;
+}
+.slider .text1{
+    background-color: rgba(255, 255, 255, 0.489);
+    width: 200px;
+    height: 90px;
+}
+/* slider1 */
+.slider1 ul li{
+    padding: 0 15px;
+}
+.slider1 ul li a{
+    color: black;
+    transition: all 1s;
+    font-family: 'Varela Round';
+}
+.slider1 ul li a:hover{
+    border-bottom: 2px solid black;
+}
+.slider1 h2,.slider2 h2{
+    color: black;
+    font-size: 25px;
+    font-family: 'Varela Round';
+}
+/* .slider2 */
+.slider2{
+    padding: 0 0 60px 0;
+}
+.slider2 .img-box{
+    padding: 30px 0 0 0;
+}
+.slider2  .img-box img{
+    width: 100%;
+    border: 2px solid #c9c9c963;
+}
+.slider2  .img-box .pat, .slider2  .img-box .pats{
+    position: relative;
+}
+.slider2  .img-box .tag{
+    width: 40px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    background-color: red;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color:white;
+    position: absolute;
+    top: 0px;
+    margin: 20px 0 0 10px;
+}
+.slider2  .img-box .stars{
+    position: absolute;
+    bottom: 85px;
+    left: 40%;
+}
+.slider2  .img-box .stars a i{
+    color: #ffd800;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.slider2  .img-box .star a i{
+    color: rgba(199, 199, 199, 0.566);
+    font-size: 10px;
+}
+.slider2  .img-box .icon{
+    position: absolute;
+    bottom: 80px;
+    left: 18%;
+}
+.slider2 .img-box .pat,.slider2 .img-box .pats{
+    padding: 10px 0;
+}
+.slider2  .img-box .icon a i {
+     font-size: 15px; 
+     color: rgb(27, 27, 27);
+}
+.slider2  .img-box .icon a .box-icons{
+    border-radius: 50%;
+    border: 2px solid gray;  
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 5px ;
+}
+.slider2  .img-box .icon a .box-icons:hover{
+     border: 2px solid #008081;  
+}
+.slider2  .img-box .photo-text h5{
+    text-align: center;
+    font-family: 'Varela Round';
+    padding: 5px 0 10px 0;
+}
+.slider2  .img-box .photo-text a{
+    font-family: 'Varela Round';
+    font-size: 15px;
+    color: #008081;
+    padding: 0 10px 0 0;
+}
+.slider2  .img-box .photo-text a:last-child{
+    color: gray;
+    text-decoration: line-through;
+}
+.slider2 .arrow .arrow-left,
+.slider2 .arrow .arrow-right,
+.slider5 .arrow .arrow-left,
+.slider5 .arrow .arrow-right,
+.slider6 .arrow .arrow-left,
+.slider6 .arrow .arrow-right{
+    width: 50px;
+    height: 25px;
+    border: 2px solid #c9c9c963;
+    margin: 5px;
+    transition: all 1s;
+    line-height: 25px;
+}
+
+/* .slider3 */
+.slider3{
+    background-image: url("../img/Single\ banner.jpg");
+    background-size: cover;
+}
+.slider3 .titla h3,
+.slider3 .titla h2{
+    color: white;
+    padding: 0!important;
+    margin-bottom: 10px;
+}
+.slider3 .slider3-titla{
+    height: 350px;
+}
+/* .slider4 */
+.slider4 .two-banner .one h3,
+.slider4 .two-banner .one h2{
+    color: white;
+    padding:5px 0 ;
+    font-family: 'Varela Round';
+}
+.slider4 .two-banner .one h2{
+    font-size: 30px;
+    padding-bottom:10px ;
+}
+.slider4 .two-banner .one{
+    background-image: url('../img/Two\ banner\ 1.jpg');
+    background-size: cover;
+    padding-left: 30px;
+    height: 300px;
+}
+.slider4 .two-banner .two{
+    background-image: url('../img/Two\ banner\ 2.jpg');
+    background-size: cover;
+    height: 300px;
+    padding: 0 40px 30px 0;
+}
+/* .slider5 */
+.slider5{
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+.slider5 .title,.slider6 .title{
+    width: 100%;
+}
+.slider5 .title h2,.slider6 .title h2{
+    color: black;
+    font-family: 'Varela Round';
+}
+.slider5 .card {
+    padding: 50px 0 0 0;
+}
+.slider5 .card .card-one{
+    border: 2px solid #c9c9c963;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+.slider5 .card .card-one .img{
+    position: absolute;
+    top: -30px;
+}
+.slider5 .card .card-one .img img{
+    width: 80%;
+}
+
+.slider5 .card .card-one p{
+    padding: 5px 0;
+    font-family: 'Varela Round';
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 50px;
+}   
+.slider5 .card .card-one h4{
+    padding: 8px 0;
+    color: #008081;
+    transition: all 1s;
+    font-family: 'Varela Round';
+}
+.slider5 .card .card-one h4:hover{
+    text-decoration: underline;
+}
+.slider6{
+    padding: 50px 0 130px;
+}
+.slider6 .card{
+    padding: 20px 0 0 0;
+}
+.slider6 .card .img img{
+    width: 100%;
+}
+.slider6 .card .img{
+    z-index: -99;
+    position: relative;
+}
+.slider6 .card .bolg .img .date{
+    position: absolute;
+    top: 2%;
+    left: 1.5%;
+    width: 45px;
+    text-align: center;
+    background-color: #008081;
+    padding: 7px;
+}
+.slider6 .card .bolg .img .date p {
+    font-size: 12px;
+    color: white;
+    font-family: 'Varela Round' ;
+}
+.slider6 .card .bolg .text{
+    text-align: center;
+    background-color: white;
+    padding: 15px 10px;
+    margin: -40px 15px 0 15px;
+    box-shadow: 0px 3px 20px 0px black;
+}
+.slider6 .card .bolg .text h4{
+    font-family: 'Varela Round'; 
+}
+.slider6 .card .bolg .text p{
+    font-family: 'Varela Round'; 
+    font-size: 12px;
+    padding: 5px 0 10px;
+}
+.slider6 .card .bolg .text a{
+    font-family: 'Varela Round'; 
+    color: #008081;
+    font-size: 14px;
+    text-decoration: underline;
+}
+footer{
+    background-color: #008081;
+    padding: 50px 0 0;
+}
+footer .filler{
+    background-color: white;
+    border: 2px solid #ffd800;
+    margin-top: -110px ;
+}
+footer .filler .filler-card{
+    padding: 15px 0;
+}
+footer .filler .icon i{
+    font-size: 40px;
+}
+
+footer .filler .text h4,footer .filler .text p{
+    font-family: 'Varela Round'; 
+    padding: 2px 0;
+}
+footer .filler .text p{
+    font-size: 13px;
+}
+footer .footer-text .pat{
+    padding-right: 40px;
+}
+footer .footer-text .pat h4,footer .footer-text .pats h4{
+    font-family: 'Varela Round';
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 30px 0 15px 0;
+}
+footer .footer-text .pat form button{
+    background-color: #ffd800;
+    border: 0;
+    width: 132px;
+    height: 38px;
+    font-family: 'Varela Round';
+    font-size: 17px;
+}
+footer .footer-text .pat form input{
+    padding: 0 0 10px 0;
+}
+footer .footer-text .pat form input::placeholder{
+    color: #ffffffa6;
+}
+footer .footer-text .pat .icon{
+    padding-top: 20px;
+}
+footer .footer-text .pat .icon a .box-icons i{
+    font-size: 18px; 
+    color: white;
+}
+footer .footer-text .pat .icon a .box-icons {
+   border-radius: 50%;
+   border: 2px solid white;  
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   margin: 0 5px ;
+}
+footer .footer-text .pats{
+    padding: 0 0 0 27px;
+}
+footer .footer-text .pats_l{
+    padding: 0 0 0 50px;
+}
+footer .footer-text .pats ul li{
+    color: white;
+    font-family: 'Varela Round';
+    font-size: 14px;
+    line-height: 2;
+}
+footer .footer-contact .contact-text .icon{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+footer .footer-contact .contact-text .icon i{
+    color: black;
+    font-size: 18px;
+}
+footer .footer-contact .contact-text .text span{
+    color: white;
+    font-family: 'Varela Round';
+    font-size: 14px;
+    padding-left: 10px;
+}

@@ -1,0 +1,138 @@
+:root{
+    --background-color1: #222b45;
+    --background-color: #192038;
+    --background:#2e3a59;
+    --background-color2: #151a30;
+}
+
+.height{
+    height: 155px;
+}
+.he{
+    height: 400px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #101426;
+    height: 50px;
+}
+.hed {
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+    top: 60px;
+}
+.font-size{
+    font-size:12px  ;
+}
+.scrollbar {
+
+    overflow-y: scroll;
+}
+body{
+    font-family: 'Open Sans' !important;
+    background-color: var(--background-color2) !important;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+.accordion-button:focus:hover {
+    color: white;
+}
+.accordion-button::after{
+    color: white !important;
+}
+.accordion-button::after{
+    background-image: url('../img/arrow-down-sign-to-navigate\ \(1\).png') !important;
+    transform: rotate(90deg) !important;
+}
+.accordion-button:focus::after{
+    transform: rotate(0deg) !important;
+}
+.slider .box .box-icons{
+    width: 80px ;
+    height: 80px;
+}
+.slider .box .btn{
+    background-image: linear-gradient(to right,#ff708d,#ff3d71);
+}
+nav{
+    z-index: 99999;
+}
+#chart{
+    margin: 0 !important;
+}
+text.apexcharts-text {
+    fill: white !important;
+}
+.apexcharts-legend-text  {
+    color: white !important;
+}
+#container,#slider1-container{
+    height: 300px !important;
+}
+
+.sub-box{
+    width: 10px;
+    height: 10px;
+    background-color: #151a30;
+}
+.sub-box1{
+    width: 10px;
+    height: 1px;
+    background-color: #ff3d71;
+}
+.sub-box2{
+    width: 10px;
+    height: 1px;
+    background-color: #151a30;
+}
+.sub-box3{
+    width: 10px;
+    height: 10px;
+    background-color: #00d68f;
+}
+.apexcharts-menu-icon{
+    display: none;
+}
+#chart{
+    padding: 0;
+}
+.Pie{
+    top: 0;
+    right: 0;
+    background:linear-gradient(270deg, #222b456f 0%, #151a306c 100%) ;
+    height: 100%;
+}
+.text .icon a{
+    color: gray;
+}
+.text .icon a:hover{
+    color: white;
+}
+select:focus{
+    border-color: #0d6efd !important;
+}
+.text-hover:hover{
+    color: #0d6efd !important;
+}
+.slider ul li a,.accordion .accordion-header .accordion-button a{
+    color: white !important;
+}
+.slider ul li a i,.accordion .accordion-header .accordion-button a i{
+    color: gray !important;
+}
+.slider ul li:hover a,.slider ul li:hover a i,
+.accordion .accordion-header .accordion-button:hover a,.accordion .accordion-header .accordion-button:hover a i{
+     color: #0d6efd !important;
+}
+.accordion-item {
+    background-color: transparent !important;
+}
+#chartdiv{
+    height: 350px !important;
+}
